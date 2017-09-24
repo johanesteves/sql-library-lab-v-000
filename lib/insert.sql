@@ -7,13 +7,13 @@ INSERT INTO subgenres(name) VALUES ("subgenre2");
 INSERT INTO authors(name) VALUES ("author1");
 INSERT INTO authors(name) VALUES ("author2");
 
-INSERT INTO books(title, author_id, series_id) VALUES ("book1", 1999, 1, 1);
-INSERT INTO books(title, author_id, series_id) VALUES ("book2", 2000, 1, 1);
-INSERT INTO books(title, author_id, series_id) VALUES ("book3", 2001, 1, 1);
+INSERT INTO books(title, year, series_id) VALUES ("book1", 1999, 1);
+INSERT INTO books(title, year, series_id) VALUES ("book2", 2000, 1);
+INSERT INTO books(title, year, series_id) VALUES ("book3", 2001, 1);
 
-INSERT INTO books(title, author_id, series_id) VALUES ("book4", 1999, 2, 2);
-INSERT INTO books(title, author_id, series_id) VALUES ("book5", 2000, 2, 2);
-INSERT INTO books(title, author_id, series_id) VALUES ("book6", 2001, 2, 2);
+INSERT INTO books(title, year, series_id) VALUES ("book4", 1999, 2);
+INSERT INTO books(title, year, series_id) VALUES ("book5", 2000, 2);
+INSERT INTO books(title, year, series_id) VALUES ("book6", 2001, 2);
 
 INSERT INTO characters(name,motto, species, author_id, series_id) VALUES ("name1","motto1", "species1", 1, 1);
 INSERT INTO characters(name,motto, species, author_id, series_id) VALUES ("name2","motto2", "species2", 1, 1);
